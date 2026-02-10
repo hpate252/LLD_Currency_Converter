@@ -18,7 +18,7 @@ The project is intentionally structured to showcase **OOP concepts** like encaps
   - The app will prefer your custom rate for future conversions
 - Clean OOP design:
   - `Currency` (data model)
-  - `ExchangeRateProvider` (abstract base class / interface)
+  - `ExchangeRateProvider` (abstract base class/interface)
   - `StaticRateProvider` (concrete implementation)
   - `CurrencyConverter` (business logic)
   - `ConverterApp` (UI & control flow)
