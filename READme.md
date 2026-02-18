@@ -63,14 +63,13 @@ Ubuntu/Debian:sudo apt-get update
 
 macOS (via Homebrew): brew install gcc
 
-🚀 How to Build & Run
-Windows (PowerShell)
+🚀 How to Build & Run Windows (PowerShell)
 
 From the project folder: g++ -std=c++17 main.cpp -o currency_converter.exe
-                          .\currency_converter.exe
+                                  .\currency_converter.exe
 
 
-Note: In PowerShell you must use .\ to run an .exe in the current directory.
+Note: In PowerShell, you must use .\ to run an .exe in the current directory.
 
 Linux / macOS g++ -std=c++17 main.cpp -o currency_converter ./currency_converter
 
