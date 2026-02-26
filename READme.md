@@ -9,8 +9,7 @@ The project is intentionally structured to showcase **OOP concepts** like encaps
 
 ## 🔧 Features
 
-- Convert amounts between popular currencies:
-  - USD, EUR, INR, GBP, JPY, AUD, CAD
+- Convert amounts between popular currencies: USD, EUR, INR, GBP, JPY, AUD, CAD
 - Menu-driven CLI (console app)
 - Basic input validation (invalid numbers, negative amounts, etc.)
 - Custom exchange rate overrides:
@@ -44,30 +43,18 @@ The project is intentionally structured to showcase **OOP concepts** like encaps
 
 You need a C++17-capable compiler installed.
 
-On Windows
-You can use any of these: MinGW-w64 g++
-                          MSYS2 g++
-
-Visual Studio (with Desktop Development with C++)
-
-Make sure g++ is available in your terminal/PowerShell: g++ --version
-
-
+On Windows You can use any of these: MinGW-w64 g++  MSYS2 g++  Visual Studio (with Desktop Development with C++) Make sure g++ is available in your terminal/PowerShell: g++ --version
 If this prints a version, you’re good.
 
 On Linux / macOS
-
 Ubuntu/Debian:sudo apt-get update
               sudo apt-get install g++
-
 
 macOS (via Homebrew): brew install gcc
 
 🚀 How to Build & Run Windows (PowerShell)
-
-From the project folder: g++ -std=c++17 main.cpp -o currency_converter.exe
-                                  .\currency_converter.exe
-
+From the project folder: g++ -std= c++17 main.cpp -o currency_converter.exe
+                                   .\currency_converter.exe
 
 Note: In PowerShell, you must use .\ to run an .exe in the current directory.
 
@@ -102,7 +89,6 @@ Output (example): 10.00 USD = 831.00 INR
 (Exact values depend on the hard-coded or custom rates.)
 
 Option 2: List supported currencies
-
 Shows a table like:
 
 Code    Name                 Symbol
@@ -117,7 +103,6 @@ USD     US Dollar            $
 
 Option 3: Override custom exchange rate
 Example:
-
 From currency code: USD
 To currency code: INR
 Custom rate (1 USD = ? INR): 90
