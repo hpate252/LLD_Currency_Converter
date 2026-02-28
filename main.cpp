@@ -52,7 +52,7 @@ class StaticRateProvider : public ExchangeRateProvider {
 public:
     explicit StaticRateProvider(std::string baseCode = "USD")
         : baseCurrencyCode(std::move(baseCode)) {
-        // Hard-coded demo rates (approximate, for example only)
+        // Hard-coded demo rates, for example only
         baseRates[baseCurrencyCode] = 1.0;  // base
         baseRates["EUR"] = 0.92;            // 1 USD ≈ 0.92 EUR
         baseRates["INR"] = 83.10;           // 1 USD ≈ 83.10 INR
